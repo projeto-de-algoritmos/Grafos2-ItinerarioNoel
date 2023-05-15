@@ -1,0 +1,25 @@
+input {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+input:hover {
+  transform: scale(1.1);
+  background: red;
+}
+
+
+select {
+    text-align: center;
+    margin-left: 20px;
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 8px;
+}

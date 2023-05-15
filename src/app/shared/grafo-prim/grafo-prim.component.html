@@ -1,0 +1,13 @@
+<span>Selecione a primeira casa:</span>
+<select name="Selecionar" [(ngModel)]="selectedValue">
+    <option value="-1">--------</option>
+    <option value="0">Casa 0</option>
+    <option value="1">Casa 1</option>
+    <option value="2">Casa 2</option>
+    <option value="3">Casa 3</option>
+    <option value="4">Casa 4</option>
+    <option value="5">Casa 5</option>
+    <option value="6">Casa 6</option>
+</select>
+
+<input type="button" (click)=onClick() value="Calcular Rota">
