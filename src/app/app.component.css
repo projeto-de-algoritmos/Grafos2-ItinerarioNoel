@@ -1,0 +1,13 @@
+nav{
+    background-color: red;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+img{
+    width: 48%;
+}
