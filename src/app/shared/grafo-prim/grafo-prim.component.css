@@ -23,3 +23,7 @@ select {
     border: none;
     border-radius: 8px;
 }
+
+.bold{
+  font-weight: bold;
+}

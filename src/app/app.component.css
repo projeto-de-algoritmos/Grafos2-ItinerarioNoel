@@ -8,6 +8,16 @@ div {
     flex-direction: row;
 }
 
+div grafo-prim{
+    justify-content: center;
+    text-align: center;
+}
+
 img{
     width: 48%;
+}
+
+span{
+    font-size: 1.3rem;
+    text-align: center;
 }

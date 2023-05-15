@@ -11,3 +11,10 @@
 </select>
 
 <input type="button" (click)=onClick() value="Calcular Rota">
+<br>
+<br>
+
+<span *ngIf="rotaValue">
+    <p>A partir da seguinte casa <span class="bold">{{selectedValue}}</span> obtêm-se a seguinte rota: <span class="bold">{{rotaValue}}</span>. Com uma distância de <span class="bold">{{distancia}} KM</span></p>
+</span>
+

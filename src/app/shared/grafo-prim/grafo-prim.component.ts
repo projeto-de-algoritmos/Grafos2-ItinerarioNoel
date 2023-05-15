@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Output } from '@angular/core';
 import PriorityQueue from './priorityQueue';
 
 @Component({
@@ -9,7 +9,9 @@ import PriorityQueue from './priorityQueue';
 
 export class GrafoPrimComponent implements OnInit {
 
-  public selectedValue:any;
+  public selectedValue:any=-1;
+  public rotaValue: any;
+  public distancia: any;
   public size :number|any;
   public extractMin: number | any;
   
@@ -31,7 +33,19 @@ export class GrafoPrimComponent implements OnInit {
   
   public onClick(){
     let data = this.prim(this.arrayA, this.selectedValue);
-    alert(data.data);
+    this.distancia = data.mstCost;
+    this.rotaValue = "";
+    let i = 0;
+    data.data?.forEach(data => {
+      if(i){
+        this.rotaValue = this.rotaValue + " -> " + data;
+      } else{
+        this.rotaValue = data;
+        i=1
+      }
+        
+    })
+    
     
   }
 
@@ -78,4 +92,3 @@ export class GrafoPrimComponent implements OnInit {
   
   }
 }
-
