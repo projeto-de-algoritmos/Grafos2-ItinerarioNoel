@@ -1,27 +1,45 @@
-# AngularPrim
+# Tema:
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.11.
+- Grafos 2
 
-## Development server
+# ItinerarioNoel
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Alunos
 
-## Code scaffolding
+| Matrícula | Aluno                     |
+| ---------- | ------------------------- |
+| 200018060  | Gabriel Ferreira da Silva |
+| 200044567  | Weslley Alves de Barros   |
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Dupla 06
 
-## Build
+## Sobre
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+O projeto consiste em utilizar grafos e o algoritmo de Prim para encontrar o menor caminho entre casas. O algoritmo de Prim é uma técnica eficiente que permite determinar o caminho mais curto em um grafo ponderado. Ao aplicar essa abordagem, será possível encontrar a solução de forma precisa e otimizada.
 
-## Running unit tests
+## Screenshots
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<img src="assets/palg.png" alt="Imagem do site" />
 
-## Running end-to-end tests
+## Instalação
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+**Linguagem**: Javascript
+**Framework**: AngularJS
 
-## Further help
+## Requisitos
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+**Node versão**: 16<br>
+**NPM**: 8.15
+  
+## Uso
+
+Passo a passo para rodar o projeto
+
+```bash
+npm i
+npm run start
+```
+
+ou acessar pelo [link](https://projeto-de-algoritmos.github.io/Grafos2-ItinerarioNoel/)
+
+[Video](https://youtu.be/6oYXeu8gWbI) 
