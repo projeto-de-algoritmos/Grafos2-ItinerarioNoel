@@ -45,4 +45,4 @@ ou acessar pelo [link](https://projeto-de-algoritmos.github.io/Grafos2-Itinerari
 ## Vídeo
 
 [Github](https://github.com/projeto-de-algoritmos/Grafos2-ItinerarioNoel/tree/main/assets)
-[Video](https://youtu.be/6oYXeu8gWbI) 
+[YouTube](https://youtu.be/6oYXeu8gWbI) 
